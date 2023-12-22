@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #16181b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.textarea{
+  position: relative;
+  top: 70px;
+  left: 150px;
+}
+
+#uppercase{
+  position: relative;
+  top: 120px;
+  right: 720px;
+}
+
+#lowercase{
+  position: relative;
+  top: 120px;
+  right: 710px;
+}
+
+#clear{
+  position: absolute;
+  top: 495px;
+  right: 840px;
+}
+
+#extraspace{
+  position: absolute;
+  top: 495px;
+  right: 665px;
+}
+
+.label{
+  position: relative;
+  bottom: 300px;
+  left: 270px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.output{
+  position: relative;
+  top: 200px;
+  left: 480px;
+  font-weight: bold;
 }
